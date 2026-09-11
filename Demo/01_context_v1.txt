@@ -1,0 +1,58 @@
+=== QUY TẮC TUYỂN SINH ĐẠI HỌC CỐ ĐỊNH ===
+Dưới đây là 10 quy tắc xét tuyển của trường.
+
+Quy ước:
+- T = Toán, L = Lý, H = Hóa, V = Văn, A = Anh, Tin = Tin học, Ve = Năng khiếu Vẽ.
+- A00 = T + L + H ; A01 = T + L + A ; D01 = T + V + A.
+- IELTS = điểm chứng chỉ IELTS (không có thì tính là 0).
+- SoThich = sở thích cá nhân thí sinh khai báo.
+
+R1 (Khoa học Máy tính):
+  IF ((T >= 8.5 AND L >= 8.0 AND Tin >= 8.0) OR (IELTS >= 7.0 AND T >= 8.5))
+     AND SoThich IN {"Lập trình", "Nghiên cứu thuật toán"}
+
+R2 (Kỹ thuật Phần mềm):
+  IF (A00 >= 24.5 OR A01 >= 25.0)
+     AND (T >= 8.0 OR Tin >= 8.5)
+     AND SoThich = "Phát triển ứng dụng"
+
+R3 (Trí tuệ Nhân tạo & Khoa học Dữ liệu):
+  IF (T >= 9.0 AND L >= 8.0)
+     AND (Tin >= 8.0 OR A >= 8.0)
+     AND SoThich IN {"Trí tuệ nhân tạo", "Phân tích dữ liệu"}
+
+R4 (An toàn Thông tin):
+  IF (A00 >= 24.0 OR A01 >= 24.0)
+     AND Tin >= 8.0
+     AND SoThich = "Bảo mật hệ thống"
+
+R5 (Kinh doanh Quốc tế):
+  IF D01 >= 25.0
+     AND A >= 8.5
+     AND (IELTS >= 6.5 OR SoThich = "Giao thương quốc tế")
+
+R6 (Thương mại Điện tử):
+  IF (A01 >= 23.5 OR D01 >= 24.0)
+     AND T >= 7.5
+     AND SoThich IN {"Kinh doanh online", "Công nghệ số"}
+
+R7 (Tài chính - Ngân hàng):
+  IF (A00 >= 24.0 OR D01 >= 24.5)
+     AND T >= 8.5
+     AND SoThich = "Đầu tư tài chính"
+
+R8 (Thiết kế Đồ họa):
+  IF ((V >= 7.0 AND Ve >= 8.0) OR (Tin >= 8.0 AND Ve >= 7.5))
+     AND SoThich = "Sáng tạo nghệ thuật"
+
+R9 (Kỹ thuật Cơ điện tử):
+  IF A00 >= 23.5
+     AND T >= 8.0
+     AND L >= 8.0
+     AND SoThich = "Chế tạo robot"
+
+R10 (Ngôn ngữ Anh Thương mại):
+  IF D01 >= 24.0
+     AND A >= 9.0
+     AND SoThich = "Giao tiếp & Dịch thuật"
+=== HẾT QUY TẮC ===
