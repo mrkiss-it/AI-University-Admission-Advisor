@@ -1,0 +1,3 @@
+Dựa tuyệt đối vào các quy tắc luật dẫn tuyển sinh được cung cấp ở trên, hãy đóng
+vai trò là tư vấn viên tuyển sinh trả lời hồ sơ của học sinh X với điểm số tương
+ứng. Tuyệt đối không tự đưa thêm quy luật ngoài văn bản được cung cấp.
